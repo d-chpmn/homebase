@@ -16,9 +16,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "dev": "vite",
-    "build:vite": "vite build",
-    "preview": "vite preview",
+  "dev": "vite",
+  "build:vite": "vite build",
+  "preview": "vite preview",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -44,7 +44,9 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.17",
-    "gh-pages": "^5.0.0"
+    "@vitejs/plugin-react": "^5.1.1",
+    "gh-pages": "^5.0.0",
+    "vite": "^7.2.2"
   },
   "homepage": "https://d-chpmn.github.io/homebase"
 }
